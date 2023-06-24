@@ -6,6 +6,7 @@ typechain
 typechain-types
 yarn.lock
 package-lock.json
+deployments
 
 # Hardhat files
 cache
