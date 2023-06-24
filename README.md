@@ -1,5 +1,5 @@
 # 一个去中心化NFT市场
-Hardhat框架
+Hardhat框架, typescript
 
 Sepolia部署地址： https://sepolia.etherscan.io/address/0x38e5BB961AEb21A8E93150f1cbFd114F159bd949#code
 
@@ -32,7 +32,7 @@ npx hardhat deploy --tags frontend
 npm run test
 
 // 正则匹配单侧描述跑某些个单侧
-npm run test --grep 'buy'
+npx hardhat test --grep 'buy'
 
 // 单侧覆盖率报告
 npx hardhat coverage
