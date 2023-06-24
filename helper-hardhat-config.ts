@@ -34,3 +34,8 @@ export const networkConfig: networkConfigInfo = {
 }
 
 export const developmentChains = ["hardhat", "localhost"]
+
+export const frontEndContractFile =
+    "/Users/whitefusion/Dev/nft-market-thegraph/constants/networkmapping.json"
+
+export const frontEndAbiLocation = "/Users/whitefusion/Dev/nft-market-thegraph/constants/"
