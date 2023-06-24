@@ -19,13 +19,13 @@ NFT合约代码：https://github.com/whitefusion/hardhat-nft
 // 部署全部
 npx hardhat deploy
 
-// 部署测试
+// 部署本地测试
 npx hardhat deploy --network hardhat
 
-// 部署测试网络sepolia
+// 部署sepolia
 npx hardhat deploy --network sepolia
 
-// 更新前端abi和address
+// 更新前端abi和address，需先在helper-hardhat-config中更新前端代码库路径
 npx hardhat deploy --tags frontend
 
 // 单侧， 先部署测试
